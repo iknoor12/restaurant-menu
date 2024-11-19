@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* General Styles */
+body {
+    font-family: "",italic;
+    margin: 0;
+    padding: 0;
+    background-color: #fce7d0;
+    color: #333;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .home-image {
+    width: 80%;
+    max-width: 600px; 
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px; 
+} */
+
+header nav li:hover{
+    background-color: #e67e22;
+    transition: 0.6s ease;
+    cursor:pointer;
+    padding: 3.5px;
+    padding-left:0.5px;
+    padding-right:0.5px;
+    border-radius: 5px;
+
+}
+header {
+    background-color: #ff9933;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: "Pacifico";
+}
+.nav {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+a {
+    border: 2px solid #f7f5f3;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.nav li {
+    display: inline;
+    margin: 0 10px;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: none;
+}
+
+main {
+   padding: 50px; 
+   max-width: 800px;
+   margin: 20px auto;
+   background: #fff;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(48, 41, 41, 0.806);
+}
+
+main:hover {
+   cursor: pointer;
+   transition: 0.6s ease;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+form input:hover{
+    background-color: rgba(235, 230, 230, 0.522);
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+form textarea:hover {
+    background-color: rgba(235, 230, 230, 0.522);
+    cursor: pointer;
+    transition: 0.3s ease;
+    border:2px solid black;
+}
+.serve {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    font-size: 2rem;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input, form textarea, form button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+form button {
+    margin-top: 15px;
+    background-color: #ff9933;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form button:hover {
+    background-color: #e67e22;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    font-size: 1.4rem;
+}
